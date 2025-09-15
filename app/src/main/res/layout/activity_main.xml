@@ -8,22 +8,22 @@
     tools:context=".MainActivity">
 
     <EditText
+        android:id="@+id/et1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Pick date!"
-        android:id="@+id/et1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-  <TextView
+    <TextView
+        android:id="@+id/et2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-android:text="Time of Day..."
-      android:gravity="center"
-        android:id="@+id/et2"
-      android:layout_marginTop="100dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="Time of Day..."
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
